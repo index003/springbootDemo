@@ -39,6 +39,11 @@
     <p th:text="${currentProduct.price+999}" ></p>
 </div>
  
+<div class="showing">
+    <div th:replace="include::footer1" ></div>
+    <div th:replace="include::footer2(2015,2018)" ></div>
+</div>
+ 
 </body>
  
 </html>
